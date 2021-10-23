@@ -1,0 +1,6 @@
+﻿Команды для миграции
+
+// cd "University"
+
+dotnet ef migrations add init --context University.Data.UniversityContext --output-dir Data/Migrations
+dotnet ef database update
